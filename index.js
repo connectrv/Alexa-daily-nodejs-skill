@@ -94,7 +94,7 @@ const AnswerIntentHandler = {
         let speakOutput = 'Here is ' + userAnswer;//testing
          speakOutput = '';
 
-        if(correctAnswer === userAnswer.toLowerCase() ){
+        if(correctAnswer === userAnswer){
             speakOutput = "Correct Answer. You get X points";
         } else {
             speakOutput = "Wrong Answer. You only have x chances remaining.";
